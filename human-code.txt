@@ -2,33 +2,64 @@ Scegliere cosa guardare su Netflix
 
 INIZIO
 
-Prendere la "lista dei film/serie"
+Accedere a Netflix
 
-SE esiste la "lista dei film/serie già visti"
-        - prendere la "lista dei film/serie già visti"
-        - confrontare la "lista dei film/serie" con la "lista dei film/serie già visti"
+Effettuare il login
+
+SE stavo guardando un film/serie 
+      - continuare a guardare il film/serie
+
 ALTRIMENTI
-        - Creare "lista dei film/serie già visti"
-
+       SE sonno/poco tempo
+           - selezionare film/serie (durata > 90min) in "film/serie suggerite" OPPURE accedere a film/serie (durata > 90min) [in categoria (X)]
+       ALTRIMENTI
+           - selezionere film/serie in "film/serie suggerite" OPPURE accedere a film/serie [in categoria (X)]
+       FINE SE
+           SE consiglio esterno
+              - spostare film/serie selezionato [in categoria (X)] in "film/serie suggeriti"
+              - selezionare film/serie consigliato [in categoria (X)]
+           ALTRIMENTI
+              - Guardare film/serie selezionato
+           FINE SE
 FINE SE
+         
 
-Prendere la "lista dei film/serie"
+     
 
-SE esiste la "lista dei film/serie che potrebbero piacerti"
-        - prendere la "lista dei film/serie che potrebbero piacerti"
-        - confrontare la "lista dei film/serie" con la "lista dei film/serie che potrebbero piacerti"
-ALTRIMENTI
-        - Creare "lista dei film/serie che potrebbero piacerti"
 
-FINE SE
 
-FINCHÉ (il film/serie selezionato è presente nella "lista dei film/serie già visti OPPURE NON è presente nella "lista dei film/serie che potrebbero piacerti")
-        - seleziona un altro film/serie
-FINE FINCHÉ
 
-- aggiungere il film/serie alla "lista dei film/serie già visti"
 
-FINE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
