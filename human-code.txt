@@ -4,7 +4,7 @@ INIZIO
 
 Prendere la "lista dei film/serie"
 
-SE esiste la "lista dei film già visti"
+SE esiste la "lista dei film/serie già visti"
         - prendere la "lista dei film/serie già visti"
         - confrontare la "lista dei film/serie" con la "lista dei film/serie già visti"
 ALTRIMENTI
