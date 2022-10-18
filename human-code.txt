@@ -1,0 +1,34 @@
+Scegliere cosa guardare su Netflix
+
+INIZIO
+
+Prendere la "lista dei film/serie"
+
+SE esiste la "lista dei film già visti"
+        - prendere la "lista dei film/serie già visti"
+        - confrontare la "lista dei film/serie" con la "lista dei film/serie già visti"
+ALTRIMENTI
+        - Creare "lista dei film/serie già visti"
+
+FINE SE
+
+Prendere la "lista dei film/serie"
+
+SE esiste la "lista dei film/serie che potrebbero piacerti"
+        - prendere la "lista dei film/serie che potrebbero piacerti"
+        - confrontare la "lista dei film/serie" con la "lista dei film/serie che potrebbero piacerti"
+ALTRIMENTI
+        - Creare "lista dei film/serie che potrebbero piacerti"
+
+FINE SE
+
+FINCHÉ (il film/serie selezionato è presente nella "lista dei film/serie già visti OPPURE NON è presente nella "lista dei film/serie che potrebbero piacerti")
+        - seleziona un altro film/serie
+FINE FINCHÉ
+
+- aggiungere il film/serie alla "lista dei film/serie già visti"
+
+FINE
+
+
+
